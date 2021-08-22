@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction App</title>
+    <script src="./index.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <!-- <script src="./index.js" type="module"></script> -->
+</head>
+
+<body>
+    <div class="mainContainer">
+        <h1 id="ClientName"></h1>
+        <h2>Overview</h2>
+        <div class="balance">
+            <div class="balanceArea">
+                <span class="balance_text">Balance</span>
+                <span class="balance_text" id="balanceAmount"></span>
+                <div class="progress">
+                    <svg class="progress-circle" width="200px" height="200px">
+                        <circle class="progress-circle-back" cx="80" cy="80" r="74"></circle>
+                        <circle class="progress-circle-prog" id="progress_circle_prog" cx="80" cy="80" r="74"></circle>
+                    </svg>
+                    <div class="progress_text" id="progress_txt" data-progress="0">0%</div>
+                </div>
+
+            </div>
+
+            <hr>
+            <div class="incomeExpense">
+                <div>
+                    <span>Income</span>
+                    <br>
+                    <span id="incomeAmount"></span>
+                </div>
+                <div>
+                    <span>Expense</span>
+                    <br>
+                    <span id="expenseAmount">00.00</span>
+                </div>
+            </div>
+        </div>
+        <div class="icons">
+            <i onclick="homeIcon()" class="iWhite"><img src="Assets/Icon/home-solid.svg" alt="Home Icon"
+                    class="iconWhite" id="home"></i>
+            <i onclick="addTrans()" class="iGrey"><img src="Assets/Icon/plus-solid.svg" alt="Add Sign"
+                    class="iconGrey"></i>
+            <i class="iGrey"><img src="Assets/Icon/edit-regular.svg" alt="About Us"
+                    class="iconGrey"></i>
+            <i onclick="seeTrans()" class="iGrey"><img src="Assets/Icon/chart-line-solid.svg" alt="Chart"
+                    class="iconGrey"></i>
+        </div>
+        <p class="footer">Made with <span class="heart">&#10084;</span> by <a target="_blank"
+                href="https://www.facebook.com/Farhanahmed50official" class="footername">Farhan Ahmed</a></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

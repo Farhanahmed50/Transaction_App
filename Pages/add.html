@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="add.css">
+    <script src="add.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Add Transactions</h1>
+        <input type="date" class="inp" id="date">
+        <br>
+        <input type="text" name="" id="naration" placeholder="Naration" class="inp">
+        <br>
+        <input type="number" name="" id="amount" placeholder="Amount" class="inp">
+        <br>
+        <select name="type" id="type" class="dropdown">
+            <option value="Income">Income</option>
+            <option value="Expense">Expense</option>
+        </select>
+        <br>
+        <p id="warn"></p>
+        <button class="button" onclick="handleSubmit()">Add Transaction</button>
+
+
+        <div class="icons">
+            <i onclick="homeIcon()" class="iGrey"><img src="../Assets/Icon/home-solid.svg" alt="Home Icon"
+                    class="iconGrey" id="home"></i>
+            <i onclick="addTrans()" class="iWhite"><img src="../Assets/Icon/plus-solid.svg" alt="Add Sign"
+                    class="iconWhite"></i>
+            <i class="iGrey"><img src="../Assets/Icon/edit-regular.svg" alt="About Us" class="iconGrey"></i>
+            <i onclick="seeTrans()" class="iGrey"><img src="../Assets/Icon/chart-line-solid.svg" alt="Chart"
+                    class="iconGrey"></i>
+        </div>
+        <p class="footer">Made with <span class="heart">&#10084;</span> by <a target="_blank" href="https://www.facebook.com/Farhanahmed50official" class="footername">Farhan Ahmed</a></p>
+    </div>
+    <script src="../index.js" type="module"></script>
+</body>
+
+</html>

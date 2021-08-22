@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEF1F8;
+}
+
+.container{
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow:  5px 5px 18px #757575,
+             -5px -5px 18px #EBECF1;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #1D62FC;
+    margin-left: 3px;
+}
+
+.inp{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    height: 20px;
+    width: 88%;
+    border: hidden;
+    background-color: #F2F2F2;
+    color: #757575;
+}
+.button{
+    margin-top: -15px;
+    padding: 12px 20px;
+    background-color: #1D62FC;
+    border: hidden;
+    color: white;
+    font: 'fav-Font';
+    width: 101%;
+    border-radius: 5px;
+    margin-left: 1.5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.grey{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-left: 10px;
+    margin-top: -8px;
+    color: #757575;
+    font-size: 15px;
+}
+
+.red{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-left: 10px;
+    margin-top: -8px;
+    color: red;
+    font-size: 15px;
+}
+
+.footer{
+    font-family: 'Open Sans', sans-serif;
+    color: #757575;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  .heart{
+    color: red;
+    font-size: 15px;
+  }
+  
+  .footername {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #1D62FC;
+    text-decoration: none;
+  }
+  

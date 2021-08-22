@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="transactions.css">
+</head>
+
+<body onload="seeTransaction()">
+
+    <div class="container">
+        <h1>
+            Transaction Summary
+        </h1>
+
+        <table id="table" CELLSPACING=0 CELLPADDING=8>
+            <tr class="header">
+                <th class="id">#</th>
+                <th class="date">Date</th>
+                <th class="naration">Naration</th>
+                <th class="income">Income</th>
+                <th class="expense">Expense</th>
+                <th class="balance">Balance</th>
+                <th class="action">Delete</th>
+                <th class="edit">Edit</th>
+            </tr>
+        </table>
+        <div class="icons">
+            <i onclick="homeIcon()" class="iGrey"><img src="../Assets/Icon/home-solid.svg" alt="Home Icon"
+                    class="iconGrey" id="home"></i>
+            <i onclick="addTrans()" class="iGrey"><img src="../Assets/Icon/plus-solid.svg" alt="Add Sign"
+                    class="iconGrey"></i>
+            <i class="iGrey"><img src="../Assets/Icon/edit-regular.svg" alt="About Us"
+                    class="iconGrey"></i>
+            <i onclick="seeTrans()" class="iWhite"><img src="../Assets/Icon/chart-line-solid.svg" alt="Chart"
+                    class="iconWhite"></i>
+        </div>
+        <p class="footer">Made with <span class="heart">&#10084;</span> by <a target="_blank" href="https://www.facebook.com/Farhanahmed50official" class="footername">Farhan Ahmed</a></p>
+    </div>
+    <!-- <script src="../index.js" type="module"></script> -->
+    <script src="transactions.js"></script>
+</body>
+
+</html>

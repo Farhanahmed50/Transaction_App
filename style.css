@@ -1,0 +1,157 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #EEF1F8;
+    
+}
+
+.mainContainer{
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow:  5px 5px 18px #757575,
+             -5px -5px 18px #EBECF1;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #1D62FC;
+
+}
+
+hr{
+    border-top: 1px solid #c9ccd3;
+    width: 100%;
+}
+
+
+h2 , span , .progress_text{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: #666b7c;
+  font-weight: 500;
+}
+
+.balance{
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border-radius: 15px;
+    background: #ededed;
+    box-shadow:  5px 5px 10px #c2c2c2,
+             -5px -5px 10px #ffffff;
+}
+
+.incomeExpense{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.balanceArea{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.progress-circle {
+  transform: rotate(-90deg);
+}
+
+.progress-circle-back {
+	fill: none; 
+	stroke: #D2D2D2;
+	stroke-width:10px;
+}
+
+.progress-circle-prog {
+	fill: none; 
+	stroke: #1D62FC;
+	stroke-width: 10px;  
+	stroke-dasharray: 0 999;    
+	stroke-dashoffset: 0px;
+  transition: 0.90s;
+}
+
+.progress_text {
+  position: relative;
+  top: -102px;
+  left: 58px;
+  font-size: 30px;
+}
+.progress {
+  margin-left: 24px;
+}
+.balance_text {
+  font-size: 20px;
+}
+
+.icons{
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.iGrey{
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  flex-direction: column;
+  border-radius: 15px;
+  background: #ededed;
+  box-shadow:  5px 5px 10px #c2c2c2,
+           -5px -5px 10px #ffffff;
+}
+
+
+.iconGrey{
+  height: 15px;
+  filter: invert(40%);
+}
+
+.iconWhite {
+  height: 15px;
+  filter: invert(100%);
+}
+
+
+.iWhite {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  flex-direction: column;
+  border-radius: 15px;
+  background: #1D62FC;
+  box-shadow:  5px 5px 10px #c2c2c2,
+           -5px -5px 10px #ffffff;
+}
+
+.footer{
+  font-family: 'Open Sans', sans-serif;
+  color: #757575;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.heart{
+  color: red;
+  font-size: 15px;
+}
+
+.footername {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #1D62FC;
+  text-decoration: none;
+}

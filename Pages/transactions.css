@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEF1F8;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #1D62FC;
+    margin-left: 3px;
+}
+
+.icons {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.iGrey {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    flex-direction: column;
+    border-radius: 15px;
+    background: #ededed;
+    box-shadow: 5px 5px 10px #c2c2c2, -5px -5px 10px #ffffff;
+}
+
+.iconGrey {
+    height: 15px;
+    filter: invert(40%);
+}
+
+.iconWhite {
+    height: 15px;
+    filter: invert(100%);
+}
+
+.iWhite {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    flex-direction: column;
+    border-radius: 15px;
+    background: #1D62FC;
+    box-shadow: 5px 5px 10px #c2c2c2, -5px -5px 10px #ffffff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 5px 5px 18px #757575, -5px -5px 18px #EBECF1;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+}
+
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+td {
+    border: 1px solid #c0c3c4;
+}
+
+.header {
+    background-color: #1D62FC;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+th {
+    height: 30px;
+}
+
+tr:nth-child(2n-2) {
+    background-color: #d9dcdd;
+}
+
+.footer {
+    font-family: 'Open Sans', sans-serif;
+    color: #757575;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.heart {
+    color: red;
+    font-size: 15px;
+}
+
+.footername {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #1D62FC;
+    text-decoration: none;
+}
