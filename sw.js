@@ -5,7 +5,6 @@ const staticAssets = [
     './index.js',
     './app.js',
     './style.css',
-    // './manifest.webmanifest',
     './Assets/Icon/chart-line-solid.svg',
     './Assets/Icon/edit-regular.svg',
     './Assets/Icon/home-solid.svg',
