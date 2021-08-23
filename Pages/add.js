@@ -1,6 +1,6 @@
 try {
     JSON.parse(localStorage.clientData);
-    var titleName = "Add Transaction - Trasaction App"
+    var titleName = "Add Transactions - Trasaction App"
     document.title = titleName;
     // document.getElementById('ClientName').innerText = JSON.parse(localStorage.Information);
 }
